@@ -1,13 +1,13 @@
 === Advanced Post Manager ===
 
-Contributors: aguseo, bordoni, borkweb, brianjessee, GeoffBel, leahkoerper, lucatume, neillmcshea, vicskf, zbtirrell, juanfra
+Contributors: aguseo, bordoni, borkweb, brianjessee, leahkoerper, lucatume, neillmcshea, sdokus, vicskf, zbtirrell
 Donate link: https://evnt.is/4o
-Tags: developer-tools, custom post, filter, column, metabox, taxonomy, wp-admin, admin, Post, post type, plugin, advanced, tribe
-Requires at least: 5.7
-Tested up to: 6.5
+Tags: developer-tools, custom post, filter, column, wp-admin
+Requires at least: 6.6
+Tested up to: 6.8.2
 License: GPL v2
-Stable tag: 4.5.4
-Requires PHP: 7.1
+Stable tag: 4.5.5
+Requires PHP: 7.4
 
 Turbo charge your posts admin for any custom post type with sortable filters and columns, and auto-registration of metaboxes.
 
@@ -40,6 +40,7 @@ This plugin is for developers. Nothing will happen until you write some code to 
 Make sure you are reporting in a safe and responsible way. We take security very seriously. If you discover a security issue, please bring it to our attention right away! Below you will find all the methods to report security vulnerabilities:
 
 * [Report security bugs through the Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/advanced-post-manager)
+* Check our [Bug Bounty Program](https://www.liquidweb.com/policies/bug-bounty-program/)
 * Reach out directly to us on `security [at] stellarwp.com`.
 
 = Translations =
@@ -74,9 +75,14 @@ Our Premium Plugins and Services:
 
 == Changelog ==
 
+= [4.5.5] 2025-08-25 =
+
+* Fix - Ensure Advanced Post Manager initialization timing can handle switching between `admin_init` and `current_screen`. [ECP-1915]
+* Tweak - PHP 8.3 compatibility fixes.
+
 = [4.5.4] 2023-02-22 =
 
-* Version - Advanced post Manager 4.8.5 is only compatible with The Events Calendar 6.0.10 and higher.
+* Version - Advanced Post Manager 4.8.5 is only compatible with The Events Calendar 6.0.10 and higher.
 * Fix - Resolve error thrown by JSON decode issue. [APM-5]
 * Tweak - PHP version compatibility bumped to PHP 7.4
 * Tweak - Version Composer updated to 2

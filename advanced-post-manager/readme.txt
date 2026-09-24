@@ -3,10 +3,10 @@
 Contributors: aguseo, bordoni, borkweb, brianjessee, leahkoerper, lucatume, neillmcshea, sdokus, vicskf, zbtirrell
 Donate link: https://evnt.is/4o
 Tags: developer-tools, custom post, filter, column, wp-admin
-Requires at least: 6.6
-Tested up to: 6.8.2
+Requires at least: 6.8
+Tested up to: 7.1
 License: GPL v2
-Stable tag: 4.5.5
+Stable tag: 4.5.6
 Requires PHP: 7.4
 
 Turbo charge your posts admin for any custom post type with sortable filters and columns, and auto-registration of metaboxes.
@@ -74,6 +74,10 @@ Our Premium Plugins and Services:
 2. Automatically registered metaboxes for data entry
 
 == Changelog ==
+
+= [4.5.6] 2026-09-22 =
+
+* Fix - Hardened the restoration of saved filter sets against a security vulnerability.
 
 = [4.5.5] 2025-08-25 =
 

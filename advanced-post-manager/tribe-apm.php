@@ -2,8 +2,8 @@
 /**
  * Plugin Name: Advanced Post Manager
  * Description: Dialing custom post types to 11 with advanced filtering controls.
- * Version: 4.5.5
- * Requires at least: 6.6
+ * Version: 4.5.6
+ * Requires at least: 6.8
  * Requires PHP: 7.4
  * Author: The Events Calendar
  * Author URI: https://evnt.is/4n
@@ -55,7 +55,7 @@ class Tribe_APM {
 	/**
 	 * The current version of APM.
 	 */
-	const VERSION = '4.5.5';
+	const VERSION = '4.5.6';
 
 	/**
 	 * The textdomain for the plugin.
